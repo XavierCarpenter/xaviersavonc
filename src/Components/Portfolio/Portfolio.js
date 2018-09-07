@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Portfolio.css';
+import { connect } from "react-redux";
 import { Link, withRouter } from "react-router-dom";
 import fre3agent from "../../img/fre3agent.png"
 import contentum from "../../img/contentum.png"
@@ -7,6 +8,20 @@ import contentum from "../../img/contentum.png"
 
 class Portfolio extends Component {
     render() {
+        console.log(this.props.projects)
+        let projects = this.props.projects &&
+            this.props.projects.map((obj, i) => {
+                return (
+                    <div key={i}>
+                    <Link to={`/Details/${obj.name}`}>
+                        <div className="project-box">
+                            <h1>{obj.name}</h1>
+                            <img src={obj.image} width="380" />
+                        </div>
+                        </Link>
+                    </div>
+                );
+            });
         return (
             <div className="Portfolio">
                 <div className="Portfolio-content">
@@ -32,10 +47,13 @@ class Portfolio extends Component {
                         </ul>
                     </div>
                     <div className="projects-container">
-                        <div className="project-box">
-                            <h1>Fre3Agent</h1>
-                            <img src={fre3agent} width="380" />
-                        </div>
+                    {projects}
+                        {/* <Link to="/">
+                            <div className="project-box">
+                                <h1>Fre3Agent</h1>
+                                <img src={fre3agent} width="380" />
+                            </div>
+                        </Link>
                         <div className="project-box">
                             <h1>Contentum</h1>
                             <img src={contentum} width="380" />
@@ -59,7 +77,7 @@ class Portfolio extends Component {
                             <h1>Contentum</h1>
 
                             <img src={contentum} width="380" />
-                        </div>
+                        </div> */}
                     </div>
 
                     {/* <div className="prev">
@@ -82,4 +100,6 @@ class Portfolio extends Component {
     }
 }
 
-export default Portfolio;
+const mapStateToProps = state => state;
+
+export default withRouter(connect(mapStateToProps, )(Portfolio));
