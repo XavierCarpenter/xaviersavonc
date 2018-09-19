@@ -1,0 +1,99 @@
+.Details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.details-content {
+  margin: 5% 0 0 0;
+  color: #8a8a8a;
+
+}
+
+.name {
+  color: #cacaca;
+  font-size: 2.3em;
+  margin: 0 0 20px 0; }
+
+.desc {
+  margin: 0 0 20px 0; 
+  font-size: 20px;
+
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 15px 0; 
+}
+.links i{
+  font-size: 50px;
+}
+
+.details-content img {
+  width: 800px;
+  margin: 0 0 40px 0; }
+
+.tools-title {
+  font-size: 2em; 
+  color: #cacaca;
+  border-bottom: solid 1px #8a8a8a;
+  padding-bottom: 10px;
+  margin: 50px 0 16px 0;  
+  width: 350px;
+}
+
+.letsTalk {
+  text-align: center;
+  margin: 5% 30% 5% 30%;
+  color: #8a8a8a; 
+}
+
+
+.website-btn{
+  width: 180px;
+  height: 45px;
+  background: #FCCB00;
+border-radius: 3px 3px 3px 3px;
+-moz-border-radius: 3px 3px 3px 3px;
+-webkit-border-radius: 3px 3px 3px 3px;
+border: 0px solid #000000;
+}
+.project-details-box{
+  width: 40%;
+}
+.project-details-title{
+  font-size: 2em; 
+  color: #cacaca;
+  border-bottom: solid 1px #8a8a8a;
+  padding-bottom: 10px;
+  margin-bottom: 16px;
+  width: 350px;
+}
+.project-details-box p{
+  font-size: 21px;  
+  line-height: 30px;
+  width: 800px;
+}
+.tools-list{
+  list-style-type: circle;
+}
+.tools-list li{
+margin: 20px 0;
+}
+.back-to-portfolio{
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #8a8a8a;
+  font-size: 22px;
+  text-transform: lowercase;
+   margin: 18px 0 0 15px;
+}
+.back-to-portfolio:hover{
+  cursor: pointer;
+  color: #cacaca;
+}

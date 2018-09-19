@@ -13,11 +13,13 @@ class Portfolio extends Component {
             this.props.projects.map((obj, i) => {
                 return (
                     <div key={i}>
-                    <Link to={`/Details/${obj.name}`}>
-                        <div className="project-box">
-                            <h1>{obj.name}</h1>
-                            <img src={obj.image} width="380" />
-                        </div>
+                        <Link to={`/Details/${obj.name}`}>
+                            <div className="project-box">
+                                <h1>{obj.name}</h1>
+
+                                <img src={obj.image} width="100%" />
+
+                            </div>
                         </Link>
                     </div>
                 );
@@ -27,8 +29,8 @@ class Portfolio extends Component {
                 <div className="Portfolio-content">
 
                     <div className="portfolio-intro">
-                        <h1>Skills And Work</h1>
-                        <p>From Web Components and UI/UX animations to React.JS, Redux, Vue.JS, and Node.JS. Check out my latest web software development portfolio projects.</p>
+                        <h1>Developer Portfolio</h1>
+                        <p>From Web Components and UI/UX designs to React.JS, Redux, and Node.JS. Check out my latest web development portfolio projects.</p>
                         <ul className="skills">
                             <li>Javascript</li>
                             <li>ES6+</li>
@@ -38,6 +40,8 @@ class Portfolio extends Component {
                             <li>React</li>
                             <li>Redux</li>
                             <li>Bootstrap</li>
+                            <li>AdobeXD</li>
+                            <li>Prototyping</li>
                             <li>Nodejs</li>
                             <li>MongoDB</li>
                             <li>SQL</li>
@@ -47,7 +51,7 @@ class Portfolio extends Component {
                         </ul>
                     </div>
                     <div className="projects-container">
-                    {projects}
+                        {projects}
                         {/* <Link to="/">
                             <div className="project-box">
                                 <h1>Fre3Agent</h1>
@@ -79,19 +83,20 @@ class Portfolio extends Component {
                             <img src={contentum} width="380" />
                         </div> */}
                     </div>
-
-                    {/* <div className="prev">
+                    <div className="prev">
                         <Link to={"/"}>
-                            <i class="fas fa-angle-left"></i>
+                            <p id="last-page">about</p>
+                            <i className="fas fa-chevron-left"></i>
                         </Link>
 
                     </div>
                     <div className="next">
-                        <Link to={"/portfolio"}>
-                            <i class="fas fa-angle-right"></i>
+                        <Link to={"/recommendations"}>
+                            <p id="next-page">recommendations</p>
+                            <i className="fas fa-chevron-right"></i>
                         </Link>
 
-                    </div> */}
+                    </div>
                 </div>
 
 

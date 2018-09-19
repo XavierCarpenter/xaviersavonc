@@ -8,23 +8,27 @@ class About extends Component {
         return (
             <div className="About">
                 <div className="about-content">
-                <ul>
-                    <li><i class="fab fa-github-square"></i></li>
-                    <li><i class="fab fa-linkedin"></i></li>
-                    <li><i class="fab fa-youtube-square"></i></li>
-                </ul>
-                <div className="intro">
-                <h1>Hello, my name is Xavier Carpenter.</h1>
-                <p>I am a Full Stack Web Developer and Javascript specialist.
-                    Check out my YouTube channel, XTheDev. Feel free to take a look at my latest projects on the web portfolio page. Based in Dallas, TX. Enquires at xavier.carpenter16@gmail.com</p>
+            
+                    <ul>
+                        <li id="follow">Follow Me</li>
+                        <li><a href="https://github.com/XavierCarpenter"><i className="fab fa-github-square"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/xaviersavonc/"><i className="fab fa-linkedin"></i></a></li>
+                 
+                    </ul>
+                    <div className="intro">
+                        <h1>Hello, my name is Xavier Carpenter.</h1>
+                        <p>I am a Full Stack Web Developer and Javascript specialist.
+                    Check out my YouTube channel, XTheDev. Feel free to take a look at my latest projects on the web portfolio page. Based in Dallas, TX. Enquires at <span className="highlight">xavier.carpenter16@gmail.com</span>
+                        </p>
                     </div>
                     <div className="next">
-                    <Link to={"/portfolio"}>
-                    <i class="fas fa-angle-right"></i>
-                    </Link>
-            
+                        <Link to={"/portfolio"}>
+                            <p id="next-page">portfolio</p>
+                            <i className="fas fa-chevron-right"></i>
+                        </Link>
+
                     </div>
-                    </div>
+                </div>
 
 
             </div>

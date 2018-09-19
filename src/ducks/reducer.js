@@ -35,14 +35,14 @@ const initialState = {
             name: "Fre3Agent",
             description: "Application for freelancers to post their content, and manage apointments with clients",
             image: fre3agent,
-            tools: ["Javascript", "React", "Node.js", "Express.js", "SQL", "Maaterial UI"],
+            tools: ["Javascript", "React", "Node.js", "Express.js", "SQL", "Material UI"],
             link: "fre3agent.club"
         },
         {
             name: "Contintum",
             description: "Front-End Developer",
             image: contentum,
-            tools: ["Javascript", "React", "Node.js", "Express.js", "SQL", "Maaterial UI"],
+            tools: ["Javascript", "React", "Node.js", "Express.js", "SQL", "Material UI"],
             link: "yes"
         },
 
@@ -51,14 +51,14 @@ const initialState = {
             name: "Cash app",
             description: "Application for freelancers to post their content, and manage apointments with clients",
             image: fre3agent,
-            tools: ["Javascript", "React", "Node.js", "Express.js", "SQL", "Maaterial UI"],
+            tools: ["Javascript", "React", "Node.js", "Express.js", "SQL", "Material UI"],
             link: "fre3agent.club"
         },
         {
             name: "Contintum",
             description: "Front-End Developer",
             image: contentum,
-            tools: ["Javascript", "React", "Node.js", "Express.js", "SQL", "Maaterial UI"],
+            tools: ["Javascript", "React", "Node.js", "Express.js", "SQL", "Material UI"],
             link: "yes"
         },
 
@@ -66,14 +66,14 @@ const initialState = {
             name: "Scooby",
             description: "Application for freelancers to post their content, and manage apointments with clients",
             image: fre3agent,
-            tools: ["Javascript", "React", "Node.js", "Express.js", "SQL", "Maaterial UI"],
+            tools: ["Javascript", "React", "Node.js", "Express.js", "SQL", "Material UI"],
             link: "fre3agent.club"
         },
         {
             name: "Contintum",
             description: "Front-End Developer",
             image: contentum,
-            tools: ["Javascript", "React", "Node.js", "Express.js", "SQL", "Maaterial UI"],
+            tools: ["Javascript", "React", "Node.js", "Express.js", "SQL", "Material UI"],
             link: "yes"
         },
 
@@ -82,14 +82,14 @@ const initialState = {
             name: "Registry",
             description: "Application for freelancers to post their content, and manage apointments with clients",
             image: fre3agent,
-            tools: ["Javascript", "React", "Node.js", "Express.js", "SQL", "Maaterial UI"],
+            tools: ["Javascript", "React", "Node.js", "Express.js", "SQL", "Material UI"],
             link: "fre3agent.club"
         },
         {
             name: "Contintum",
             description: "Front-End Developer",
             image: contentum,
-            tools: ["Javascript", "React", "Node.js", "Express.js", "SQL", "Maaterial UI"],
+            tools: ["Javascript", "React", "Node.js", "Express.js", "SQL", "Material UI"],
 
             link: "yes"
         }
