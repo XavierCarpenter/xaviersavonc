@@ -16,8 +16,8 @@ feel free to shoot me a message on linkedin or send an email to
 xavier.carpenter16@gmail.com and ~let's talk.</p>
                 </div>
                     <div className="prev">
-                        <Link to={"/portfolio"}>
-                            <p id="last-page">portfolio</p>
+                        <Link to={"/recommendations"}>
+                            <p id="last-page">recommendations</p>
                             <i className="fas fa-chevron-left"></i>
                         </Link>
 

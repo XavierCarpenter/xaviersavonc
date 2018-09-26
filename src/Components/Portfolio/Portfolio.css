@@ -81,3 +81,30 @@
 a {
   text-decoration: none;
   color: #8a8a8a; }
+  /* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-width: 768px) {
+.next, .prev{
+display: none;
+}
+.Portfolio-content {
+  width: 90%;
+ }
+  .project-box {
+  width: 380px;
+  margin: 10px 0; }
+
+  .skills li {
+  background: #313131;
+  border-radius: 3px 3px 3px 3px;
+  -moz-border-radius: 3px 3px 3px 3px;
+  -webkit-border-radius: 3px 3px 3px 3px;
+  -webkit-box-shadow: 1px 1px 0px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 1px 1px 0px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 1px 1px 0px 0px rgba(0, 0, 0, 0.25);
+  border: 0px solid #000000;
+  padding: 5px;
+  margin: 8px 5px; }
+
+
+}
+

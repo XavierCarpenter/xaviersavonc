@@ -1,6 +1,7 @@
 import axios from "axios";
 import fre3agent from "../img/fre3agent.png"
 import contentum from "../img/contentum.png"
+import commingSoon from "../img/coming-soon.png"
 
 // CONSTANTS
 
@@ -50,14 +51,14 @@ const initialState = {
         {
             name: "Cash app",
             description: "Application for freelancers to post their content, and manage apointments with clients",
-            image: fre3agent,
+            image: commingSoon,
             tools: ["Javascript", "React", "Node.js", "Express.js", "SQL", "Material UI"],
             link: "fre3agent.club"
         },
         {
-            name: "Contintum",
+            name: "Coming soon",
             description: "Front-End Developer",
-            image: contentum,
+            image: commingSoon,
             tools: ["Javascript", "React", "Node.js", "Express.js", "SQL", "Material UI"],
             link: "yes"
         },
@@ -65,14 +66,14 @@ const initialState = {
         {
             name: "Scooby",
             description: "Application for freelancers to post their content, and manage apointments with clients",
-            image: fre3agent,
+            image: commingSoon,
             tools: ["Javascript", "React", "Node.js", "Express.js", "SQL", "Material UI"],
             link: "fre3agent.club"
         },
         {
-            name: "Contintum",
+            name: "Coming soon3",
             description: "Front-End Developer",
-            image: contentum,
+            image: commingSoon,
             tools: ["Javascript", "React", "Node.js", "Express.js", "SQL", "Material UI"],
             link: "yes"
         },
@@ -81,14 +82,14 @@ const initialState = {
         {
             name: "Registry",
             description: "Application for freelancers to post their content, and manage apointments with clients",
-            image: fre3agent,
+            image: commingSoon,
             tools: ["Javascript", "React", "Node.js", "Express.js", "SQL", "Material UI"],
             link: "fre3agent.club"
         },
         {
-            name: "Contintum",
+            name: "coming soon2",
             description: "Front-End Developer",
-            image: contentum,
+            image: commingSoon,
             tools: ["Javascript", "React", "Node.js", "Express.js", "SQL", "Material UI"],
 
             link: "yes"

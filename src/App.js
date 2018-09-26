@@ -35,7 +35,9 @@ class App extends Component {
                   <Link onClick={() => this.changeNav()} to={"/portfolio"}>
                   <li>Portfolio</li>
                   </Link>
-                  <li>Recommendations</li>     
+                  <Link onClick={() => this.changeNav()} to={"/recommendations"}>     
+                  <li>Recommendations</li>  
+                  </Link>   
                   <Link onClick={() => this.changeNav()} to={"/contact"}>             
                   <li>Contact</li>         
                   </Link>         

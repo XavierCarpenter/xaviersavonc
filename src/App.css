@@ -23,7 +23,7 @@ position: fixed;
 }
 .drop-down{
     top: 0;
-  position: absolute;
+  position: fixed;
   background: #333333;
   height: 100vh;
   width: 100vw;
@@ -74,4 +74,11 @@ position: fixed;
 left: 2.5%;
 top: 47.5%;
 }
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-width: 768px) {
+.nav-box{
+  width: 80%;
+}
+}
+
 

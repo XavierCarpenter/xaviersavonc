@@ -9,7 +9,7 @@ class About extends Component {
             <div className="About">
                 <div className="about-content">
             
-                    <ul>
+                    <ul className="social">
                         <li id="follow">Follow Me</li>
                         <li><a href="https://github.com/XavierCarpenter"><i className="fab fa-github-square"></i></a></li>
                         <li><a href="https://www.linkedin.com/in/xaviersavonc/"><i className="fab fa-linkedin"></i></a></li>
