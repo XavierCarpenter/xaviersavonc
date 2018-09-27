@@ -37,7 +37,14 @@ margin: 0 0 0 50px;
 .next, .prev{
 display: none;
 }
-
+.Recommend-content{
+margin: 20% auto;
+  width: 80%;
+}
+.text-author{
+font-size: 1.2em;
+margin: 0 0 0 0;
+}
 
 
 }
