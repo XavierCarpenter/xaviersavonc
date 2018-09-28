@@ -15,6 +15,10 @@
     "redux": "^4.0.0",
     "redux-promise-middleware": "^5.1.1"
   },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/XavierCarpenter/portfolio.git"
+    },
   "scripts": {
     "build-css": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/",
     "watch-css": "npm run build-css && node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/ --watch --recursive",
