@@ -18,7 +18,8 @@ class About extends Component {
                     <div className="intro">
                         <h1>Hello, my name is Xavier Carpenter.</h1>
                         <p>I am a Full Stack Web Developer and Javascript specialist.
-                    Check out my YouTube channel, XTheDev. Feel free to take a look at my latest projects on the web portfolio page. Based in Dallas, TX. Enquires at <span className="highlight">xavier.carpenter16@gmail.com</span>
+                    I'm currently located in Dallas, TX heading towards the end of a contract. I spend most of my days
+                    coding, watching netflix afd sleeping. Enquires at <span className="highlight">xavier.carpenter16@gmail.com</span>
                         </p>
                     </div>
                     <div className="next">
