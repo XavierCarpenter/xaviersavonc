@@ -1,7 +1,8 @@
 import axios from "axios";
-import fre3agent from "../img/fre3agent.png"
-import contentum from "../img/contentum.png"
-import commingSoon from "../img/coming-soon.png"
+import fre3agent from "../img/fre3agent.png";
+import contentum from "../img/contentum.png";
+import commingSoon from "../img/coming-soon.png";
+import loginApp from "../img/LoginApp.png";
 
 // CONSTANTS
 
@@ -49,11 +50,11 @@ const initialState = {
 
 
         {
-            name: "Cash app",
+            name: "Login app",
             description: "Application for freelancers to post their content, and manage apointments with clients",
-            image: commingSoon,
+            image: loginApp,
             tools: ["Javascript", "React", "Node.js", "Express.js", "SQL", "Material UI"],
-            link: "fre3agent.club"
+            link: "https://github.com/XavierCarpenter/login-app"
         },
         {
             name: "Coming soon",
